@@ -114,14 +114,14 @@ def fun():
     
   
     #print(argument)
-    print (           "                             Selected Curremcy's Rate :                      " ,      switch(argument))
+    print (           "                             Selected Curremcy's Rate (Unit:1) Euro Equivalent :                      " ,      switch(argument))
     switch(argument)
     value = float(input())
     convert=value*(switch(argument))
    
   
     print(convert)
-    print('If you want to convet it to NPR  -------    Press:y / n')
+    print(" To Convert 'n' number of Npr in euro:   -------    Press:y / n")
     operator = input()
     if operator == "y":
       finalValue=convert/NPR
